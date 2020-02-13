@@ -1,0 +1,13 @@
+프로젝트 시작
+  yarn create react-app project
+  npx create-react-app project
+
+css
+  transition: width 1s ease .5s;
+    ㄴtransition-property: width;
+    ㄴtransition-duration: 1s;
+    ㄴtransition-timing-function: ease;
+    ㄴtransition-delay: .5s;
+
+sass, scss 사용
+  yarn add node-sass
