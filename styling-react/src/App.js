@@ -4,13 +4,15 @@ import './App.css';
 
 import React from 'react';
 import SassComponent from './SassComponent';
+import CSSModule from './CSSModule';
+import StyledComponent from './StyledComponent';
 
 const App = () => {
   return (
-    <>
-      <SassComponent/>
-    </>
-  );
+    <div>
+      <StyledComponent />
+    </div>
+    );
 };
 
 export default App;
